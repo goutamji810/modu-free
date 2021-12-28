@@ -1,127 +1,46 @@
-//create by goutam
-//https://cdn.jsdelivr.net/gh/{username}/{repo}/
-//btn id = download_btn-oeneksbdosndofnmemend
-//ads container = ads-container-modu-sjsowjsishsjshajajbshdkensodnw
-
-
-
 window.onload = function() {
   var list = [getRectAd(),
    getBannerAd(),
     getNativeAd(),
     getBigAd()
     ];
-
- 
-var id_contener="ads-container-modu-sjsowjsishsjshajajbshdkensodnw",
-id_info="adinfotoclickad-odndkdndidnsksndidneodbeown",
-id_download_btn="download_btn-oeneksbdosndofnmemend";
-
-
-
-var info_code="<div class\""+id_info+"\"><h3 style=\"text-align: center;\">Click one of this Ad to unlock the</h3><h3 style=\"text-align: center;\">👇👇download button. 👇👇</b></h3></div>";
-
-var divs = document.getElementsByClassName(id_contener),
-download_btn=document.getElementsByClassName(id_download_btn)[0],
-download_btn_parents=(download_btn!=null)?download_btn.parentElement:null;
-
-if(download_btn!=null&&download_btn!=undefined){
-  download_btn.style.display="none";
-  
-}
-
-
-var web_blur=false,timero;
-window.onblur = function(){
-  if(download_btn_parents==null||web_blur)return;
-  web_blur=true;
-  var text =document.createElement("B");
-  text.style.textAlign="center";
-  text.innerHTML="wait..";
-  download_btn_parents.insertBefore(text,download_btn);
-  timero=setInterval(fun,1000,download_btn,text);
- 
-};
-var int_var_count=10;
-function fun(btn,text){
- text.innerHTML="wait... "+int_var_count; 
-  if(int_var_count<1){
-   clearInterval(timero);
-   visible_download_btn(btn,text,download_btn_parents);
+function getRan(min, max) {
+    return Math.floor(Math.random() * (max - min +1)) + min;
   }
-  int_var_count--;
-}
-
-function visible_download_btn(btn,txt,part){
-  part.removeChild(txt);
-  btn.style.display="block";
-}
+  
+var id1="iskaajjajajaajajajsbhwbshsvsbshsbssnajsjsbuejdbsllsbd";
+var actualDivToBeUpdated = document.getElementById(id1);
+actualDivToBeUpdated.style.textAlign="center";
 
 
-
-
-
-
-
-for(var i=0; i<divs.length; i++){
- updatediv(divs[i]); 
-}
-
-
-
-function updatediv(actualDivToBeUpdated){
 if(actualDivToBeUpdated!=null){
   
-  actualDivToBeUpdated.style.textAlign="center";
 var rand=getRan(0,list.length-1),  val=list[rand];
-var s =document.createElement("script");
+var s = document.createElement("script");
 s.type = "text/javascript";
 switch (val.type){
   case "native":{
     s.src=val.src;
-    actualDivToBeUpdated.innerHTML+=(info_code)+val.extra;
+    actualDivToBeUpdated.innerHTML+=val.extra;
     actualDivToBeUpdated.appendChild(s);
-    
   } break;
   default :{
     s.src=val.src;
-    actualDivToBeUpdated.innerHTML+=(info_code)+val.extra;
+    actualDivToBeUpdated.innerHTML+=val.extra;
     var s2 = document.createElement("script");
     s2.type = "text/javascript";
     s2.innerHTML=val.script;
     actualDivToBeUpdated.appendChild(s);
     actualDivToBeUpdated.appendChild(s2);
     
-  }//default
-}
-
-
-
-}
-}
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-function getRan(min, max) {
-    return Math.floor(Math.random() * (max - min +1)) + min;
   }
+}
+
+
+
+}
+
+
 function getBigAd(){
   var val= {
     type:"big",
