@@ -1,5 +1,5 @@
 //create by goutam
-//https://cdn.jsdelivr.net/gh/{username}/{repo}/
+//https://cdn.jsdelivr.net/gh/goutamji810/modu-free/{name}
 //btn id = download_btn-oeneksbdosndofnmemend
 //ads container = ads-container-modu-sjsowjsishsjshajajbshdkensodnw
 
