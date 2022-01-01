@@ -1,1 +1,1 @@
-Hy ko
+Alert();
