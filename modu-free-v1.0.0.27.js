@@ -135,7 +135,14 @@ $(i).on("load",()=>{
  st.padding="0px";
  st.margin="0px";
  st.borderRadius="4px";
- i.srcdoc=`<html><body style="margin:0px; padding:0px; overflow:hidden; text-align: center;"><script type="text/javascript">
+ 
+ element.append(i);
+ 
+ var doc = i.contentDocument ? i.contentDocument :(i.contentWindow ? i.contentWindow.document : i.document)
+
+doc.open();
+
+doc.write(`<html><body style="margin:0px; padding:0px; overflow:hidden; text-align: center;"><script type="text/javascript">
 	atOptions = {
 		'key' : '9107021bda86af1c978cb74fe0552c54',
 		'format' : 'iframe',
@@ -144,8 +151,10 @@ $(i).on("load",()=>{
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://abandonrecommendationwars.com/9107021bda86af1c978cb74fe0552c54/invoke.js"></scr' + 'ipt>')
-</script></body></html>`;
- element.append(i);
+</script></body></html>`);
+
+doc.close();
+
 }
 
 })()
