@@ -1,1 +1,142 @@
-function likeBtn(o){var t;o.innerHTML+='<span class="likebtn-wrapper" data-theme="drop" data-i18n_like=" " data-ef_voting="grow" data-counter_type="percent" data-counter_frmt="km" data-counter_zero_show="true" data-counter_count="true" data-share_size="small" data-loader_show="true" data-tooltip_enabled="false" data-tooltip_like_show_always="true" data-i18n_dislike=" " data-i18n_after_like=" " data-i18n_after_dislike=" " data-i18n_like_tooltip=" " data-i18n_dislike_tooltip=" " data-i18n_unlike_tooltip=" " data-i18n_undislike_tooltip=" " data-i18n_popup_close=" "></span><br><br>',t=document,o="script",t.getElementById("likebtn_wjs")||(a=t.createElement(o),m=t.getElementsByTagName(o)[0],a.async=1,a.id="likebtn_wjs",a.src="//w.likebtn.com/js/w/widget.js",m.parentNode.insertBefore(a,m))}function getPreCss(){return' <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&amp;display=swap" rel="stylesheet">  <style> .suggest_container_a{  text-decoration: none;  color: #323232; margin: 0px;  padding: 0px;   display: flex; } .suggest_container{ display: flex;  font-family:"Akaya Telivigala", cursive; font-size:17px; padding: 20px; box-sizing:border-box; box-shadow: 1px 2px 8px 0px rgb(203,203,203); border-radius:10px;}.suggest_item1{ width: 90px;  height: 90px;}.suggest_item2{  margin: 9px; }.suggest_item3{ text-align: right;  display: inline-block;  top: 30px;  margin-left: 60px;}.suggest_item1_img{  width: 90px;  height: 90px;  border-radius: 10px; box-sizing:border-box; box-shadow: 1px 2px 4px 1px rgb(226,226,226); }.suggest_item2_title{  font-weight: bold; padding: 2px;}.suggest_item2_info{ padding:0px; margin :0px;  font-size: 14px;  display: -webkit-box;  overflow: hidden;  -webkit-line-clamp: 1;  -webkit-box-orient: vertical;  width: 80%;}.suggest_item2_label{  padding: 4px;  border-radius: 10px; background-color: #e39300;  color: #fff;  font-size: 15px; } .ocl{ background-color: #f9a100; } .gcl{ background-color: #01ac01;}.suggest_item2_img_arrow{width: 30px; height: 30px;} .suggest_item2_mp{ position:relative; top:-5px; left:5px; } .suggest_item1_label { position: relative; left: -1px; color:#fff; font-size:19px;  text-align: center; top:-35px; background:rgba(217,7,7);  padding:1px 6px 1px 6px; transform: rotate(-2deg); box-shadow: 3px 3px 5px 3px rgba(226,226,226,0.46);  border-bottom-left-radius:5px ;   border-top-right-radius:5px; }</style>'}function getLatestTag(o,t){var e=new Date(o),o=new Date((new Date).getTime()-864e5*t),t='<div class="suggest_item1_label">'+(getRan(0,1)?"Updated!":"Latest!")+"</div>";return o<e?t:""}function getItem(o){return('<div><a class="suggest_container_a" href="{{url}}"><div class="suggest_container"> <div class="suggest_item1" >   <img src="{{img}}" class="suggest_item1_img" alt="{{title}}"> '+getLatestTag(o.$d,15)+' </div> <div class="suggest_item2"><span class="suggest_item2_title">{{title}}</span></span><br> <br>  <span class="suggest_item2_info"></span><br> <div style="margin:0px; padding:0px;" class="suggest_item2_mp">'+(getRan(0,1)?'<span class="suggest_item2_label gcl">mod</span>  <span class="suggest_item2_label ocl">premium</span>':'<span class="suggest_item2_label ocl">premium</span> <span class="suggest_item2_label gcl">mod</span> ')+" </div> </div></a></div><br>").replaceAll("{{title}}",o.$t).replaceAll("{{url}}",o.$u).replaceAll("{{img}}",o.$i)}function loadOtherApps(o,t){let e,s,d=document.createElement("div");for(let o=0;o<getRan(3,10);o++)e=getRan(0,t.length-1,!0),s=t[e],d.innerHTML+=getItem(s);o.appendChild(d),o.innerHTML+=getPreCss()}function getRan(o,t,e){var s=Math.floor(Math.random()*(t-o+1))+o;return null!=e&&e&&-1!=randomList.indexOf(s)?getRan(o,t,e):(randomList.push(s),s)}window.onload=function(){var o=document.getElementsByClassName(btnid)[0];likeBtn(o),loadOtherApps(o,JSON.parse(data))};var randomList=[],btnid="download_btn-oeneksbdosndofnmemend",data=getCleanJson();function getCleanJson(){let o=getJson();return o=o.replace(/\\n/g,"\\n").replace(/\\'/g,"\\'").replace(/\\"/g,'\\"').replace(/\\&/g,"\\&").replace(/\\r/g,"\\r").replace(/\\t/g,"\\t").replace(/\\b/g,"\\b").replace(/\\f/g,"\\f"),o=o.replace(/[\u0000-\u0019]+/g,""),o}function getJson(){return'[{"$t":"Street Racing 3D Mod APK Unlimited Money and diamond | Street Racing 3D (MOD, Unlimited Money) 7.3.6 APK ","$i":"https://lh3.googleusercontent.com/-98QpfbW-eZw/YhnwmdxVoUI/AAAAAAAAAp4/Z8p_izWM-SI0M2J83NTzpR8vhL1QeI8cwCNcBGAsYHQ/s72-c/IMG_1645867153380.jpg","$u":"https://modu-free.blogspot.com/2022/02/street-racing-3d-mod-apk-unlimited.html","$d":"2022-02-26T01:39:00.110-08:00"},{"$t":"Angry Birds Friends v10.10.2 Mod Apk | Unlimited powers | Unlimited coins | No ads | Anti-bam | free download | mediafire download","$i":"https://lh3.googleusercontent.com/-f5pHLwTbTKI/Yc6EctscAcI/AAAAAAAAAe8/dPYNiSy-9iUZ_LGjYFU4qJM5Ctt4MjKOgCNcBGAsYHQ/s72-c/IMG_1640924256422.jpg","$u":"https://modu-free.blogspot.com/2022/02/angry-birds-friends-v10102-mod-apk.html","$d":"2022-02-19T04:07:51.530-08:00"},{"$t":"Download Pubg Mobile Global Mod (32bit & 64bit) | DOWNLOAD PUBG MOBILE KR 1.8.0 Mod Apk (Esp & Aimbot)","$i":"https://lh3.googleusercontent.com/-IPZp8-dUbyw/Yg5wiXth5HI/AAAAAAAAAo8/EPGXhsbP5Jo1FtDUvx4zHHwSkry3mN9KQCNcBGAsYHQ/s72-c/IMG_1645113470214.jpg","$u":"https://modu-free.blogspot.com/2022/02/download-pubg-mobile-global-mod-32bit.html","$d":"2022-02-17T10:02:17.880-08:00"},{"$t":"Download Knife Hit (MOD, Unlimited Coins) 1.8.12 or latest free on android","$i":"https://lh3.googleusercontent.com/-RRY_NMiag20/YgfnIr6w2eI/AAAAAAAAAok/KohIfLJEgZEAuVYB7U9YBh_mPmsOSNDWgCNcBGAsYHQ/s72-c/IMG_1644685074650.jpg","$u":"https://modu-free.blogspot.com/2022/02/download-knife-hit-mod-unlimited-coins.html","$d":"2022-02-12T09:05:17.121-08:00"},{"$t":"Download Candy Crush Saga (MOD, Unlocked) 1.220.0.4 free on android","$i":"https://lh3.googleusercontent.com/-wnGAlXJD7-k/YdAT3iF2pyI/AAAAAAAAAfU/q5viKHmlonIdzALMvoofViz8dsiUXoUBACNcBGAsYHQ/s72-c/IMG_ORG_1641026513311.png","$u":"https://modu-free.blogspot.com/2022/02/download-candy-crush-saga-mod-unlocked.html","$d":"2022-02-03T06:13:51.931-08:00"},{"$t":"mAst Pro 1.3.9.1 Mod APK download Latest version 2021","$i":"https://lh3.googleusercontent.com/-_AO6QWyrXPY/YfQgYngvp7I/AAAAAAAAAnc/keCxumzJ6L08sFY9cKyHuoXzhkXeb-3xgCNcBGAsYHQ/s72-c/IMG_1643389015964.jpg","$u":"https://modu-free.blogspot.com/2022/01/mast-pro-1391-mod-apk-download-latest.html","$d":"2022-01-28T17:07:00.172-08:00"},{"$t":"InShot Pro Mod APK 1.780.1344 download free","$i":"https://lh3.googleusercontent.com/-WsuAcdABLsc/YfPMVTpLdxI/AAAAAAAAAm0/gLZqXThtNIQD1OxeLQuLflFyF8-9GdMzwCNcBGAsYHQ/s72-c/IMG_ORG_1643367499351.png","$u":"https://modu-free.blogspot.com/2022/01/video-editor-maker-inshot-51-mb-play.html","$d":"2022-01-30T09:51:18.737-08:00"},{"$t":"shape-shifting 1.3.4 mod apk (unlimited money , no ads) download for free","$i":"https://lh3.googleusercontent.com/-eRZz2fG8ZKw/YfDFHGF3aFI/AAAAAAAAAmQ/LrDVehlzMWEsKRye8r_v3GeL5-wc9xkqQCNcBGAsYHQ/s72-c/IMG_1643169041348.jpg","$u":"https://modu-free.blogspot.com/2022/01/shape-shifting-134-mod-apk-unlimited.html","$d":"2022-01-25T23:33:33.997-08:00"},{"$t":"Traffic Rider 1.81 ( mod unlimited coins , fully unlocked) apk for free","$i":"https://lh3.googleusercontent.com/-T1ctMF1DkTs/Ye6kCVhN0LI/AAAAAAAAAlg/VNGOW3priRQeOVhOaggjkpDDixWdQXGLACNcBGAsYHQ/s72-c/IMG_1643029501230.jpg","$u":"https://modu-free.blogspot.com/2022/01/traffic-rider-181-mod-unlimited-coins.html","$d":"2022-01-24T06:30:20.065-08:00"},{"$t":"My Talking Tom 2 mod 3.1.2.1966 download free | ","$i":"https://lh3.googleusercontent.com/-aGhCTRb2Mr0/Ydrte9KlIMI/AAAAAAAAAkM/g8FsecfwoLwJvmpQyAJvLn2odWKwOgD8gCNcBGAsYHQ/s72-c/IMG_1641737585519.jpg","$u":"https://modu-free.blogspot.com/2022/01/my-talking-tom-2-mod-3121966-download.html","$d":"2022-01-22T12:30:56.279-08:00"},{"$t":"My Talking Tom 2 mod 3.0.4.1849 apk download free","$i":"https://lh3.googleusercontent.com/-aGhCTRb2Mr0/Ydrte9KlIMI/AAAAAAAAAkM/g8FsecfwoLwJvmpQyAJvLn2odWKwOgD8gCNcBGAsYHQ/s72-c/IMG_1641737585519.jpg","$u":"https://modu-free.blogspot.com/2022/01/my-talking-tom-2-mod-3041849-apk.html","$d":"2022-01-16T19:29:53.763-08:00"},{"$t":"AZ Screen Recorder 5.9.2 mod apk download free","$i":"https://lh3.googleusercontent.com/-MD4mwdhqpfc/Ydrk9bTQ3RI/AAAAAAAAAj0/LS9xTSWZ-vckIh28oo-jQfphMF6mS42xACNcBGAsYHQ/s72-c/IMG_ORG_1641735403868.png","$u":"https://modu-free.blogspot.com/2022/01/az-screen-recorder-592-mod-apk-download.html","$d":"2022-01-12T19:30:00.237-08:00"},{"$t":"Hunter Assassin 1.51.1 mod apk download free","$i":"https://lh3.googleusercontent.com/-piyXbTGy3EA/YdMtF_WkP-I/AAAAAAAAAjU/iazsl5ZDs0snn2VjWN5_s6idVZ96TxIwgCNcBGAsYHQ/s72-c/IMG_ORG_1641229580193.png","$u":"https://modu-free.blogspot.com/2022/01/hunter-assassin-1511-mod-apk-download.html","$d":"2022-01-12T07:30:00.210-08:00"},{"$t":"8 Ball Pool 5.6.1 mod menu download | auto aim | full line mod free","$i":"https://lh3.googleusercontent.com/-qoOxKCMccEo/Ydxwgw06GjI/AAAAAAAAAkk/XQkLyQtL5IsQ2vJ4AyQUZXFXZZ2oW08OACNcBGAsYHQ/s72-c/IMG_ORG_1641836664408.png","$u":"https://modu-free.blogspot.com/2022/01/8-ball-pool-561-mod-apk-download-free.html","$d":"2022-01-11T11:06:54.878-08:00"},{"$t":"Block Craft 3D 2.13.66 mod apk download free","$i":"https://lh3.googleusercontent.com/-Qe_xSWktiyc/YdMtFBLWAaI/AAAAAAAAAjQ/8ZxsOs1EhR41AoumP6KRbcX5ilqbUeIywCNcBGAsYHQ/s72-c/IMG_ORG_1641229572560.jpeg","$u":"https://modu-free.blogspot.com/2022/01/block-craft-3d-21366-mod-apk-download.html","$d":"2022-01-10T19:30:00.481-08:00"},{"$t":"War Robots Multiplayer 7.2.0 mod apk download free","$i":"https://lh3.googleusercontent.com/-aokgiabgOWA/YdMrU_Ee4LI/AAAAAAAAAiw/bDM0bhqFoDQJXrjjIC0Fgd-en_E2EVWyACNcBGAsYHQ/s72-c/IMG_ORG_1641229128927.png","$u":"https://modu-free.blogspot.com/2022/01/war-robots-multiplayer-720-mod-apk.html","$d":"2022-01-09T19:30:00.206-08:00"},{"$t":"Dr Driving 1.68 mod apk download free","$i":"https://lh3.googleusercontent.com/-eMNKPuPYZpM/YdMoS0E_xII/AAAAAAAAAiY/zA7iNnynBskQPgH1c5YlZsIe6KNqIf9SQCNcBGAsYHQ/s72-c/IMG_1641228349460.jpg","$u":"https://modu-free.blogspot.com/2022/01/dr-driving-168-mod-apk-download-free.html","$d":"2022-01-09T07:30:00.219-08:00"},{"$t":"Shadow Fight 2 2.17.1 mod apk download free","$i":"https://lh3.googleusercontent.com/-8PdnIp28Q90/YdMnPI-8VNI/AAAAAAAAAiA/6sWk2cX3rKM66aMyXrdPubUjS3DpeTUEwCNcBGAsYHQ/s72-c/IMG_ORG_1641228079559.png","$u":"https://modu-free.blogspot.com/2022/01/shadow-fight-2-2171-mod-apk-download.html","$d":"2022-01-07T19:30:00.216-08:00"},{"$t":"Bus Simulator Ultimate 1.5.4 mod apk download free","$i":"https://lh3.googleusercontent.com/-Q8zZX7QlJl4/YdMdDCxR6VI/AAAAAAAAAho/9C-Ao2oVsnIIVGbMolYFCwWNVDf0UBgMwCNcBGAsYHQ/s72-c/IMG_1641225473876.jpg","$u":"https://modu-free.blogspot.com/2022/01/bus-simulator-ultimate-154-mod-apk.html","$d":"2022-01-06T19:30:00.207-08:00"},{"$t":"B612 Camera&Photo/Video Editor 10.5.6 mod apk download free","$i":"https://lh3.googleusercontent.com/-Mp4pS3C2fb0/YdMcA53qrDI/AAAAAAAAAhQ/ILcosT_jAkA_CVWvAhNx50QLeC6OQc1sQCNcBGAsYHQ/s72-c/IMG_ORG_1641225207460.png","$u":"https://modu-free.blogspot.com/2022/01/b612-camera-editor-1056-mod-apk.html","$d":"2022-01-05T19:30:00.222-08:00"},{"$t":"World cricket championship 2 - Wcc2 2.9.6 mod apk download free","$i":"https://lh3.googleusercontent.com/-ijYaMqNqcLY/YdMaO1Cu8GI/AAAAAAAAAg4/idhrWws2hxQyuAkS2iPuTZx_AH9DOq9OwCNcBGAsYHQ/s72-c/IMG_1641224754370.jpg","$u":"https://modu-free.blogspot.com/2022/01/world-cricket-championship-2-wcc2-296_4.html","$d":"2022-01-04T22:34:08.424-08:00"},{"$t":"Clash of Clans v14.211.16 Mod (Premium , Unlimited Money) Download Free || modappsbymodu","$i":"https://lh3.googleusercontent.com/-25KPuYnwA6Q/Yb8Fujr8OwI/AAAAAAAAAcE/Q2bOZYiIBLYs9DKrZ2iI8D9mhXVFVHovQCNcBGAsYHQ/s72-c/IMG_ORG_1639908721745.png","$u":"https://modu-free.blogspot.com/2022/01/clash-of-clans-v.html","$d":"2022-01-09T10:26:01.680-08:00"},{"$t":"Brawl Stars 41.150 Mod Apk Download Free.","$i":"https://lh3.googleusercontent.com/-tmcx-RB_51U/YdLbzwmwKWI/AAAAAAAAAgw/5H_wGNVHBvwzGEaMPzT-uMeSXF5rCJWDACNcBGAsYHQ/s72-c/IMG_1641208776108.jpg","$u":"https://modu-free.blogspot.com/2022/01/brawl-stars-41150-mod-apk-download-free.html","$d":"2022-01-10T19:50:41.130-08:00"},{"$t":"Squid Survival Challenge : 456 0.0.18 Mod apk Download","$i":"https://lh3.googleusercontent.com/-xjo55Z90NoI/YdGZvZHuBxI/AAAAAAAAAgc/2o7g3I3YhgEZ64eYlYHUqNP6dKMYC20bACNcBGAsYHQ/s72-c/IMG_ORG_1641126324935.jpeg","$u":"https://modu-free.blogspot.com/2022/01/squid-survival-challenge-456-0018-mod.html","$d":"2022-01-02T04:35:20.926-08:00"},{"$t":"Smash Hit (MOD, Unlimited Balls/Premium) 1.4.3.apk","$i":"https://lh3.googleusercontent.com/-I9ofV_7KN5M/YdFr_Rzh_OI/AAAAAAAAAgE/9bSs1VYYbb8Dd_s7zntHcLtPZ0k5sIT-ACNcBGAsYHQ/s72-c/IMG_ORG_1641114610731.png","$u":"https://modu-free.blogspot.com/2022/01/smash-hit-mod-unlimited-ballspremium.html","$d":"2022-01-02T01:18:10.367-08:00"},{"$t":"Crush Candy Jelly Saga 2.73.8 Mod Apk free to Download","$i":"https://lh3.googleusercontent.com/-mew1OlGEKzk/YdEAHM5cKZI/AAAAAAAAAf0/6pV5gMahrcs04X9w28366BV4IaW8931wQCNcBGAsYHQ/s72-c/IMG_ORG_1641086979518.jpeg","$u":"https://modu-free.blogspot.com/2022/01/crush-candy-jelly-saga-mod-150-mb.html","$d":"2022-01-01T18:38:28.028-08:00"},{"$t":"Crush Candy Soda Saga 1.108.4 Mod Apk free Download","$i":"https://blogger.googleusercontent.com/img/a/AVvXsEiWltQrt9xZYYTdRvWIwOw19VR4GCXZhN5D-xa_gxfYMCUMLL8qt_PHmU-PRXfNUYiSJL7G0hhABbQ5gyZQshuitYW2ABd3R4dh31-No6toec--WXlnQSCY3NWVGUeZapaj8Mw1GUv1kSJPw4tVl8zfE1kMfrpCNrS2sRrnQ5yrTiXqvxuXBtS41ICr=s72-c","$u":"https://modu-free.blogspot.com/2022/01/crush-candy-soda-saga-mod-82-mb-android.html","$d":"2022-01-01T18:39:14.035-08:00"},{"$t":"Crush Candy Saga 1.217.0.3 mod apk for free download ","$i":"https://lh3.googleusercontent.com/-wnGAlXJD7-k/YdAT3iF2pyI/AAAAAAAAAfU/q5viKHmlonIdzALMvoofViz8dsiUXoUBACNcBGAsYHQ/s72-c/IMG_ORG_1641026513311.png","$u":"https://modu-free.blogspot.com/2021/12/crush-candy-79.html","$d":"2022-01-01T18:39:51.395-08:00"},{"$t":"Angry Birds Friends v10.9.0 Mod Apk | Unlimited powers | Unlimited coins | No ads | Anti-bam | free download | mediafire download","$i":"https://lh3.googleusercontent.com/-f5pHLwTbTKI/Yc6EctscAcI/AAAAAAAAAe8/dPYNiSy-9iUZ_LGjYFU4qJM5Ctt4MjKOgCNcBGAsYHQ/s72-c/IMG_1640924256422.jpg","$u":"https://modu-free.blogspot.com/2021/12/angry-birds-friends-v1090-mod-apk.html","$d":"2021-12-30T20:28:10.990-08:00"},{"$t":"Clash Royale 3.2729.1 Mod ( unlimited gems and money 💸) Download for free | No ads | Direct Download  ","$i":"https://lh3.googleusercontent.com/-nEB7VEct36Q/Yc06uzRFKaI/AAAAAAAAAeM/7OuKZj_h9mo8VFskHZRKd-5POAogsF20QCNcBGAsYHQ/s72-c/IMG_ORG_1640839476820.png","$u":"https://modu-free.blogspot.com/2021/12/clash-royale-327291-mod-unlimited-gems.html","$d":"2022-01-03T09:53:12.512-08:00"},{"$t":"Snakes and Ladders King Mod Apk 1.1.0.11 [Unlimited money] | modappsbymodu","$i":"https://lh3.googleusercontent.com/-yCPI3BvbbxM/YcxDn_HUZBI/AAAAAAAAAds/MyD9DhQxBfsshrkU74FCJq3kWBc7zdAGQCNcBGAsYHQ/s72-c/IMG_ORG_1640776510095.png","$u":"https://modu-free.blogspot.com/2021/12/snakes-and-ladders-king-mod-apk-11011.html","$d":"2021-12-29T03:52:17.736-08:00"},{"$t":"Zarchiver v.9.5.8 Mod Premium apk (fully unlocked) for all. | modappsbymodu","$i":"https://lh3.googleusercontent.com/-BhJjo0AAVqE/YckolQmu1WI/AAAAAAAAAdc/L4A6zDvoOdEnCDVpkkl1YcqaxaQOY8ObgCNcBGAsYHQ/s72-c/IMG_ORG_1640572930871.png","$u":"https://modu-free.blogspot.com/2021/12/zarchiver-v958-mod-premium-apk-fully_28.html","$d":"2021-12-28T18:51:21.269-08:00"},{"$t":"Pokémon Go 0.225.0 Premium Mod ( fully unlocked with joystick ) apk for all. | pokemon go mod apk unlimited coins and joystick  | modappsbymodu ","$i":"https://lh3.googleusercontent.com/-UwsPnjgCaVc/Ycn9_qyyYGI/AAAAAAAAAdk/t0dhULYs3eAK3G77k6EOC-biJmFHVIVcgCNcBGAsYHQ/s72-c/IMG_ORG_1640627683469.png","$u":"https://modu-free.blogspot.com/2021/12/pokemon-go-02250-premium-mod-fully.html","$d":"2021-12-28T18:54:23.173-08:00"},{"$t":"Subway Surfers V2.27.0 Premium Mod( fully unlocked ) for all. | Mod with untold story revealed |  modappsbymodu","$i":"https://lh3.googleusercontent.com/-epBiogjFgMc/Ycits3SysgI/AAAAAAAAAdU/J_Kcy297bCwQTLGc7JJwQV5mGibkkJjrgCNcBGAsYHQ/s72-c/IMG_ORG_1640541592075.png","$u":"https://modu-free.blogspot.com/2021/12/subway-surfers-v2270-premium-mod-fully.html","$d":"2021-12-28T19:26:29.906-08:00"},{"$t":"Facebook latest mod version for free ( working for all ). | modappsbymodu","$i":"https://lh3.googleusercontent.com/-oVtYZnzafuw/Ycbq3myVa5I/AAAAAAAAAc0/aVKqs6Fversx0Z_qSp2hcUCzLSxo1n8qwCNcBGAsYHQ/s72-c/IMG_ORG_1640426180536.png","$u":"https://modu-free.blogspot.com/2021/12/facebook-latest-mod-version-for-free.html","$d":"2021-12-28T18:55:21.220-08:00"},{"$t":"Facebook Lite modded version work for all devices. | modappsbymodu","$i":"https://lh3.googleusercontent.com/-h4Om7T-gYIs/YcbuCsSFlaI/AAAAAAAAAc8/21stloVd1gYz16kYPXTheXsiolcrtXmCgCNcBGAsYHQ/s72-c/IMG_ORG_1640426891463.jpeg","$u":"https://modu-free.blogspot.com/2021/12/facebook-lite-modded-version-work-for.html","$d":"2021-12-28T19:01:30.470-08:00"},{"$t":"CCleaner v6.1.0 premium mod apk for all download. | ccleaner pro apk| modappsbymodu","$i":"https://lh3.googleusercontent.com/-gSk5ybn5448/Ycb4b6VwLpI/AAAAAAAAAdE/JCHLBUKxExkFfASuLa2H6-LLD0seDUsBQCNcBGAsYHQ/s72-c/IMG_ORG_1640429652422.png","$u":"https://modu-free.blogspot.com/2021/12/ccleaner.html","$d":"2021-12-28T19:02:10.844-08:00"},{"$t":"Screen Recorder & Video Recorder Xrecoder v2.1.2.1 premium mod apk | modappsbymodu ","$i":"https://blogger.googleusercontent.com/img/a/AVvXsEgqTh8sqphvrKcDwxgT30TZWB9Wg5Xb3Z7e6WpdUWzIfQqnE7ZDThk0fBmj-gDMfDpebPRL7xVy7dEPpxeNBAnaTh-9jI5M7CIRs2f7__wcGgUro861Qq_kYSTCrcG6vSP2RG3RH4t4Bs9ZLyGID8MNX-E1cvb3HKycb1EmLF6btQS_VpWk9-MWOmtQ=s72-w200-h200-c","$u":"https://modu-free.blogspot.com/2021/12/xrecorder.html","$d":"2021-12-28T19:02:37.291-08:00"},{"$t":"MX Player Pro Apk v1.39.13 Download Free For Android | ad free mx player pro apk | download mx player pro apk latest version | modappsbymodu","$i":"https://lh3.googleusercontent.com/-85zsuSZkpzY/YcRqhPvu9DI/AAAAAAAAAck/FE3usnyNzUIHA60_FROKipNrBmUeWiPwwCNcBGAsYHQ/s72-c/IMG_ORG_1640262216369.png","$u":"https://modu-free.blogspot.com/2021/12/mx-player.html","$d":"2021-12-28T23:48:19.809-08:00"},{"$t":"Roblox latest mod version with amazing store of roblox full explained. | modappsbymodu","$i":"https://lh3.googleusercontent.com/-g6tw4aELJqA/YcIb4gn3S3I/AAAAAAAAAcU/Arq2PuJcL3EnP4N53wUO5INlPmsRU0sXwCNcBGAsYHQ/s72-w200-h200-c/IMG_ORG_1640110976377.jpeg","$u":"https://modu-free.blogspot.com/2021/12/roblox.html","$d":"2021-12-21T10:27:22.104-08:00"},{"$t":"Earn to die V1.4.37 premium (unlimited money) App Download | modappsbymodu","$i":"https://lh3.googleusercontent.com/-JUa6rtAiBG0/Yb68xoGHdzI/AAAAAAAAAb8/vyCfruVP8Xgb3yQktTmhRsLv2zH67ItWACNcBGAsYHQ/s72-c/IMG_1639890000893.jpg","$u":"https://modu-free.blogspot.com/2021/12/earn-to-die-v1437-premium-unlimited.html","$d":"2021-12-28T19:05:57.890-08:00"},{"$t":"FREEE FIRE 1.68.1 OFFICIAL APK + OBB DOWNLOAD FREE   | modappsbymodu","$i":"https://lh3.googleusercontent.com/-eeKGfXE5s-s/Yb2qP9Me47I/AAAAAAAAAb0/BjT4hbb84NANYHANCBQgRSO-35VwpVlKgCNcBGAsYHQ/s72-c/IMG_ORG_1639819822357.png","$u":"https://modu-free.blogspot.com/2021/12/free-fire-v1.html","$d":"2021-12-20T22:07:49.777-08:00"},{"$t":"Minecraft 1.18.2 latest version official free download. | modappsbymodu","$i":"https://lh3.googleusercontent.com/-GnaKxX9kNwg/YbzUusw3zEI/AAAAAAAAAbk/egmsTDzmubUuVfyxpd1UJaN2UGEE6GJvwCNcBGAsYHQ/s72-c/IMG_ORG_1639765107957.png","$u":"https://modu-free.blogspot.com/2021/12/minecraft-1182-latest-version-official.html","$d":"2021-12-28T19:06:46.286-08:00"},{"$t":"Download Alight motion mod app for free latest | modappsbymodu","$i":"https://lh3.googleusercontent.com/-E5fbdDPWVmw/YbyHwbgXDlI/AAAAAAAAAbc/RUXjJEHrDwkyMd3PT17ABlqsJ6gXicALACNcBGAsYHQ/s72-c/IMG_ORG_1639745096325.png","$u":"https://modu-free.blogspot.com/2021/12/alight-motion-pro-v4.html","$d":"2021-12-20T22:08:29.785-08:00"},{"$t":"Download PowerDirector Pro v9.9.1 Free | Power Director All Pro Versions Download.  | modappsbymodu","$i":"https://lh3.googleusercontent.com/-zj87pOisF4w/YbOR9JKUq2I/AAAAAAAAAZs/O9YgZLjQCdQjUfwTzNZkDQbDTHxBxv--gCNcBGAsYHQ/s72-c/IMG_ORG_1639158061059.png","$u":"https://modu-free.blogspot.com/2021/12/download-powerdirector-pro-v990-free.html","$d":"2021-12-20T22:08:47.455-08:00"},{"$t":"Download polish mod v1.387.110 app free | modappsbymodu","$i":"https://lh3.googleusercontent.com/-89aOp8aVLfs/Ybmu6vhUT6I/AAAAAAAAAao/4LKokh2-8FQyUVxxeJuQ2AQOatsb7JmWwCNcBGAsYHQ/s72-c/IMG_ORG_1639558710114.png","$u":"https://modu-free.blogspot.com/2021/12/polish-photo-editor-16-mb-v1.html","$d":"2021-12-28T19:08:54.626-08:00"},{"$t":"Download Pics Art Latest Mod v16.8.0 App For Free | modappsbymodu | PicsArt Photo Studio v16.8.0 APK MOD full Gold Premium Unlocked","$i":"https://lh3.googleusercontent.com/-4tJ7pG74iB0/YbmhVGedsBI/AAAAAAAAAaI/2J5RtbmPeAkR5dd54b0jG7qAvih3mpkUACNcBGAsYHQ/s72-c/IMG_1639555049509.jpg","$u":"https://modu-free.blogspot.com/2021/12/pics-art-pro-57-mb-v18.html","$d":"2021-12-28T19:09:15.624-08:00"},{"$t":"PPSSPP 1.12.2 mod application for all free | modappsbymodu","$i":"https://lh3.googleusercontent.com/-SIjqkTgNdcU/YbmnQ7lN5fI/AAAAAAAAAaY/2cn3eNa0u8cPdsJSiNCi8I2lOMxi6k6fgCNcBGAsYHQ/s72-c/IMG_ORG_1639556666700.png","$u":"https://modu-free.blogspot.com/2021/12/ppsspp-gold-premium-16-mb-v1.html","$d":"2021-12-20T22:10:11.873-08:00"},{"$t":"Download Kinemaster Pro v5.2.2.23300.GP Free | Kinemaster All Pro Versions Download.  | modappsbymodu","$i":"https://lh3.googleusercontent.com/-PIh3MDt0UkY/YbNAeehG-eI/AAAAAAAAAZU/3oc1b5193yst6llC_zA-EM20alilpPdbwCNcBGAsYHQ/s72-c/IMG_ORG_1639137348430.png","$u":"https://modu-free.blogspot.com/2021/12/kinemaster-mod-app.html","$d":"2021-12-31T20:51:13.110-08:00"},{"$t":"Download QuickEdit+ Pro Mod v1.8.4 App. | modappsbymodu","$i":"https://lh3.googleusercontent.com/-5O7TBu_uF1s/YbijpQWW5vI/AAAAAAAAAZ4/pWmN7U7xxq0AYBSB8I6bUpQyrK_8Yh4xACNcBGAsYHQ/s72-c/IMG_ORG_1639490043231.png","$u":"https://modu-free.blogspot.com/2021/12/quickedit-v1.html","$d":"2021-12-28T08:39:15.487-08:00"}]'}
+(function() {
+"use strict";
+
+let id="rect_ad_view_modufree",url_id="modufree_download_url";
+if(document.getElementsByClassName(id)[0]==null||document.getElementById(url_id)==null){return;}
+
+
+$(document).ready(() => {
+  
+  document.querySelectorAll("."+id).forEach((e)=>{
+   addOnScrollListener(e,2);
+ });//query
+ 
+ 
+ download_link_loader();
+ 
+ 
+ 
+ 
+ 
+ 
+});
+
+
+
+
+
+function download_link_loader(){
+  let cou=10,download_cou=document.getElementById("download_count_up"),download_url_btn=document.getElementById("download_btn_url");
+  let interval_i=setInterval(()=>{
+  if(cou<1){ 
+   download_cou.innerHTML='<font color="yellowgreen"> Scroll down to get </font>';
+   let ee=document.createElement("b");
+   ee.onclick=()=>{scroll_to_download()};
+   ee.innerHTML="download link";
+   download_cou.appendChild(ee);
+   clearInterval(interval_i);
+  
+  let urld= $("#"+url_id).val().trim();
+  urld=(urld!="url"&&url!="")? url:"#";
+  download_url_btn.href=urld;
+  if(urld=="#"){
+    download_url_btn.onclick=()=>{
+      location.reload()
+    };
+  }
+  download_url_btn.parentElement.style.display="block";
+   }else{
+   download_cou.innerHTML='Wait <font color="yellowgreen"> '+cou+' </font> for download link';
+   cou--;
+   }
+  },1100);
+ 
+ 
+}
+
+  
+ 
+ 
+  function scroll_to_download(){
+  let a=document.createElement("a");
+  a.href="#scroll_class_dbtn";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+function addOnScrollListener(element,timeafter) {
+  
+  loadAdsReact($(element),true)
+  
+  let cond2=true,saf=(timeafter!=undefined)?timeafter:2,cond3=saf;
+  
+  document.addEventListener("scroll",() => {
+ 
+ let o=$(element);
+ let cond=$(document).scrollTop()>(o.offset().top-600)&&$(document).scrollTop()<(o.offset().top+300);
+ 
+ if(cond){
+ if(cond2){
+   if(cond3<1){
+   loadAdsReact($(element),true);
+   cond3=saf;
+   }
+  cond3--;
+  cond2=false;
+ }
+ }else{
+ cond2=true;
+   
+ }
+ 
+ 
+ 
+ });//event scroll
+ 
+ 
+
+}
+
+
+
+
+function loadAdsReact(element,b) {
+  if(b)element.html("");
+  element[0].style.textAlign="center";
+ let i=document.createElement("iframe");
+ let st=i.style;
+ st.boxShadow= "0px 0px 5px 0px #b8b4b4";
+ i.width="300";
+ i.height="250";
+ st.border="none";
+ st.padding="0px";
+ st.margin="0px";
+ st.borderRadius="4px";
+ i.srcdoc=`<html><body style="margin:0px; padding:0px; overflow:hidden; text-align: center;"><script type="text/javascript">
+	atOptions = {
+		'key' : '9107021bda86af1c978cb74fe0552c54',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://abandonrecommendationwars.com/9107021bda86af1c978cb74fe0552c54/invoke.js"></scr' + 'ipt>')
+</script></body></html>`;
+ element.append(i);
+}
+
+})()
