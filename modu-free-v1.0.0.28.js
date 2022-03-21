@@ -2,20 +2,23 @@
 "use strict";
 
 let id="rect_ad_view_modufree",url_id="modufree_download_url";
-if(document.getElementsByClassName(id)[0]==null||document.getElementById(url_id)==null){return;}
+
 
 
 
 
 $(document).ready(() => {
-  
+  (function(){
+    if(document.getElementsByClassName(id)[0]==null)return;
   document.querySelectorAll("."+id).forEach((e)=>{
    addOnScrollListener(e,2);
  });//query
+})();
  
- 
+ (function(){
+ if(document.getElementById(url_id)==null){return;}
  download_link_loader();
- 
+ })();
  
  
  
