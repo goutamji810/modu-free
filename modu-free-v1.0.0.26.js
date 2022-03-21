@@ -5,6 +5,8 @@ let id="rect_ad_view_modufree",url_id="modufree_download_url";
 if(document.getElementsByClassName(id)[0]==null||document.getElementById(url_id)==null){return;}
 
 
+
+
 $(document).ready(() => {
   
   document.querySelectorAll("."+id).forEach((e)=>{
@@ -22,9 +24,6 @@ $(document).ready(() => {
 });
 
 
-
-
-
 function download_link_loader(){
   let cou=10,download_cou=document.getElementById("download_count_up"),download_url_btn=document.getElementById("download_btn_url");
   let interval_i=setInterval(()=>{
@@ -37,7 +36,7 @@ function download_link_loader(){
    clearInterval(interval_i);
   
   let urld= $("#"+url_id).val().trim();
-  urld=(urld!="url"&&url!="")? url:"#";
+  urld=(urld!="url"&&urld!="")? urld:"#";
   download_url_btn.href=urld;
   if(urld=="#"){
     download_url_btn.onclick=()=>{
@@ -120,8 +119,18 @@ function loadAdsReact(element,b) {
  let i=document.createElement("iframe");
  let st=i.style;
  st.boxShadow= "0px 0px 5px 0px #b8b4b4";
- i.width="300";
- i.height="250";
+ i.width="0";
+ i.height="0";
+$(i).on("load",()=>{
+   i.width="300";
+   let h=0;
+  let intv= setInterval(function() {
+   i.height=(h>250?250:h)+"";
+   if(h>250)clearInterval(intv);
+   h=h+10;
+   }, 1);
+   
+ });
  st.border="none";
  st.padding="0px";
  st.margin="0px";
