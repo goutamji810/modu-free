@@ -167,7 +167,7 @@ function getAdsHeight(i) {
 
 
 function getAdsWidth(i) {
-   return (i==3)? 320:(i==2)?320:300;
+   return (i==3)? 320:(i==2)?330:300;
 }
 
 
